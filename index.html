@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./script.js" defer></script>
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- nav-area -->
+    <nav>
+      <div class="hamburger">
+        <img src="./images/icon-menu.svg" alt="" />
+      </div>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <div class="nav-items-section">
+        <ul>
+          <li class="nav-items"><a href="">Collections</a></li>
+          <li class="nav-items"><a href="">Men</a></li>
+          <li class="nav-items"><a href="">Women</a></li>
+          <li class="nav-items"><a href="">About</a></li>
+          <li class="nav-items"><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <!-- profile-section -->
+      <div class="profile-section">
+        <div class="cart">
+          <img src="./images/icon-cart.svg" alt="cart" />
+          <div class="cart-count"></div>
+
+          <!-- cart dropdown -->
+          <div class="cart-drpdwn none">
+            <p class="cart-header">Cart</p>
+            <div class="cart-drpdwn-wrapper">
+              <img
+                class="drpdwn-img-1"
+                src="./images/image-product-1-thumbnail.jpg"
+                alt=""
+              />
+              <div class="drpdwn-txt">
+                <p>Autumn Limited Edition...</p>
+                <span>$125</span>x <span class="click-res"></span>
+                <span class="final-sneeker-price"></span>
+              </div>
+              <img class="drpdwn-img-2" src="./images/icon-delete.svg" alt="" />
+            </div>
+          </div>
+          <!-- cart dropdown -->
+        </div>
+        <!-- profile -->
+        <div class="profile">
+          <img src="./images/image-avatar.png" alt="avatar" />
+        </div>
+        <!-- profile -->
+      </div>
+      <!-- profile-section -->
+    </nav>
+    <!-- nav-area -->
+
+    <!-- container -->
+    <div class="container">
+      <div class="left-col">
+        <div class="l-wrapper">
+          <div class="main-img-cont">
+            <img src="./images/image-product-1.jpg" alt="" />
+            <div class="back-btn">
+              <img src="./images/icon-previous.svg" alt="" />
+            </div>
+            <div class="next-btn">
+              <img src="./images/icon-next.svg" alt="" />
+            </div>
+          </div>
+          <div class="bottom-img-cont">
+            <div class="bottom-img">
+              <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+            </div>
+            <div class="bottom-img">
+              <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+            </div>
+            <div class="bottom-img">
+              <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+            </div>
+            <div class="bottom-img">
+              <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rigth-col">
+        <div class="r-wrapper">
+          <p class="margin-2 p-1">Sneaker Company</p>
+          <h1 class="margin-2">Fall Limited Edition Sneakers</h1>
+          <p class="margin-2">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="price-wrapper margin-1">
+            <span class="off-price">$125.00</span>
+            <span class="percent">50%</span>
+            <p class="price margin-1">$250.00</p>
+          </div>
+          <div class="btn-wrapper margin-2">
+            <div class="product-count-btn">
+              <img class="plus" src="./images/icon-plus.svg" alt="" />
+              <span class="click-count">0</span>
+              <img class="minus" src="./images/icon-minus.svg" alt="" />
+            </div>
+            <div class="add-cart-btn">
+              <img src="./images/icon-cart.svg" alt="" />
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+    <div class="sidebar-container none">
+      <div class="sidebar">
+        <div class="cross-btn">
+          <img src="./images/icon-close.svg" alt="" />
+        </div>
+        <ul>
+          <li><a href="">Collections </a></li>
+          <li><a href="">Men </a></li>
+          <li><a href="">Women </a></li>
+          <li><a href="">About </a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Emtiaz Ahmed</a>.
+      </div>
+    </footer>
+  </body>
+</html>
